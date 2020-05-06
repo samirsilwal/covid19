@@ -10,6 +10,7 @@
         <tr>
           <th>Hospital Info</th>
           <th>Contact No.</th>
+          <th>No. Of Beds </th>
         </tr>
       </thead>
       <tbody>
@@ -18,9 +19,11 @@
             <ul class="hospital-list">
               <li>{{ hospital.name }}</li>
               <li>{{ hospital.timing }}</li>
+              <li>Covid: <span class="text-success">YES</span></li>
             </ul>
           </td>
           <td>{{ hospital.contactNo}}</td>
+          <td>5</td>
         </tr>
       </tbody>
     </table>
